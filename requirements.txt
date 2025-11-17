@@ -1,0 +1,14 @@
+streamlit
+torch
+torchvision
+opencv-python
+mediapipe
+numpy
+scipy
+faiss-cpu
+pillow
+tqdm
+requests
+transformers
+sentence-transformers
+python-dotenv
