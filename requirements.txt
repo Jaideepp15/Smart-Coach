@@ -2,8 +2,6 @@ streamlit>=1.30
 torch>=2.1.0
 torchvision
 opencv-python
-onnxruntime>=1.16.0
-onnx
 numpy
 scipy
 pillow
@@ -11,6 +9,8 @@ tqdm
 python-dotenv
 requests
 faiss-cpu
-sentence-transformers>=2.2.2
+sentence-transformers
 loguru
 ultralytics>=8.0.0
+groq
+pymongo

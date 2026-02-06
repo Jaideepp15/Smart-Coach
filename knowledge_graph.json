@@ -1,0 +1,211 @@
+{
+    "feature_nodes": {
+        "elbow_angle_release_deg": {"unit": "deg"},
+        "knee_angle_release_deg": {"unit": "deg"},
+        "shoulder_angle_release_deg": {"unit": "deg"},
+        "dip_duration_s": {"unit": "s"},
+        "drive_duration_s": {"unit": "s"},
+        "knee_elbow_delay_ms": {"unit": "ms"},
+        "elbow_rom_deg": {"unit": "deg"},
+        "knee_rom_deg": {"unit": "deg"},
+        "elbow_smoothness": {"unit": "unitless"},
+        "knee_smoothness": {"unit": "unitless"}
+    },
+
+    "elite_shooters": {
+        "Shooter_01": { 
+            "display_name": "Lebron James",
+            "manifold": {
+                "elbow_angle_release_deg": "115.1",
+                "knee_angle_release_deg": "109.7",
+                "shoulder_angle_release_deg": "147.0",
+                "dip_duration_s": "0.60",
+                "drive_duration_s": "0.10",
+                "knee_elbow_delay_ms": "0",
+                "elbow_rom_deg": "19.6",
+                "knee_rom_deg": "22.8",
+                "elbow_smoothness": "6122.89",
+                "knee_smoothness": "7175.56" 
+            },
+            "style_traits": ["two_motion"] 
+        },
+        "Shooter_02": { 
+            "display_name": "Klay Thompson",
+            "manifold": {
+                "elbow_angle_release_deg": "84.1",
+                "knee_angle_release_deg": "172.5",
+                "shoulder_angle_release_deg": "18.6",
+                "dip_duration_s": "0.53",
+                "drive_duration_s": "0.87",
+                "knee_elbow_delay_ms": "133",
+                "elbow_rom_deg": "114.3",
+                "knee_rom_deg": "135.0",
+                "elbow_smoothness": "4678.77",
+                "knee_smoothness": "5132.10" 
+            }, 
+            "style_traits": ["high_apex", "smooth"] 
+        },
+        "Shooter_03": { 
+            "display_name": "Ray Allen",
+            "manifold": {
+                "elbow_angle_release_deg": "141.0",
+                "knee_angle_release_deg": "93.4",
+                "shoulder_angle_release_deg": "14.5",
+                "dip_duration_s": "0.57",
+                "drive_duration_s": "1.27",
+                "knee_elbow_delay_ms": "133",
+                "elbow_rom_deg": "125.7",
+                "knee_rom_deg": "144.1",
+                "elbow_smoothness": "3169.24",
+                "knee_smoothness": "4347.47"
+            }, 
+            "style_traits": ["high_release"]
+        },
+        "Shooter_04": { 
+            "display_name": "Stephen Curry",
+            "manifold": {
+                "elbow_angle_release_deg": "115.6",
+                "knee_angle_release_deg": "156.5",
+                "shoulder_angle_release_deg": "56.7",
+                "dip_duration_s": "0.33",
+                "drive_duration_s": "0.93",
+                "knee_elbow_delay_ms": "167",
+                "elbow_rom_deg": "44",
+                "knee_rom_deg": "57.8",
+                "elbow_smoothness": "1827.04",
+                "knee_smoothness": "2180.28"
+            }, 
+            "style_traits": ["one_motion","tilted"] 
+        },
+        "Shooter_05": { 
+            "display_name": "Damian Lillard",
+            "manifold": {
+                "elbow_angle_release_deg": "115.1",
+                "knee_angle_release_deg": "148.2",
+                "shoulder_angle_release_deg": "16.9",
+                "dip_duration_s": "0.30",
+                "drive_duration_s": "0.70",
+                "knee_elbow_delay_ms": "-267",
+                "elbow_rom_deg": "145.3",
+                "knee_rom_deg": "48.3",
+                "elbow_smoothness": "5040.24",
+                "knee_smoothness": "2534.09" 
+            }, 
+            "style_traits": ["power_leg_driven","tilted"] 
+        },
+        "Shooter_06": { 
+            "display_name": "Eric Gordon",
+            "manifold": {
+                "elbow_angle_release_deg": "53.6",
+                "knee_angle_release_deg": "141.2",
+                "shoulder_angle_release_deg": "5.5",
+                "dip_duration_s": "0.73",
+                "drive_duration_s": "0.23",
+                "knee_elbow_delay_ms": "-33",
+                "elbow_rom_deg": "57.5",
+                "knee_rom_deg": "76.5",
+                "elbow_smoothness": "6388.23",
+                "knee_smoothness": "4377.17" 
+            }, 
+            "style_traits": ["power_leg_driven"] 
+        }
+    },
+    "style_constraints": {
+
+        "high_shoulder_tilt": {
+            "allows": ["shoulder_angle_release_deg"],
+            "requires": {
+            "elbow_angle_release_deg": { "min": 105.0 },
+            "elbow_rom_deg": { "min": 35.0 }
+            },
+            "notes": "When torso is tilted, elbow extension must compensate to maintain vertical force direction."
+        },
+
+        "tilted": {
+            "allows": ["shoulder_angle_release_deg"],
+            "requires": {
+            "elbow_angle_release_deg": { "min": 100.0 }
+            },
+            "notes": "Mild torso tilt is acceptable if elbow extension is sufficient."
+        },
+
+        "compact": {
+            "allows": ["dip_duration_s"],
+            "requires": {
+            "elbow_rom_deg": { "min": 40.0 },
+            "elbow_smoothness": { "min": 2500.0 }
+            },
+            "notes": "Compact shooters rely on smooth elbow ROM rather than large leg motion."
+        },
+
+        "one_motion": {
+            "allows": ["dip_duration_s", "drive_duration_s"],
+            "requires": {
+            "knee_elbow_delay_ms": { "max": 200 },
+            "drive_duration_s": { "min": 0.6 }
+            },
+            "notes": "One-motion shots require continuous kinetic chaining from legs to arm."
+        },
+
+        "two_motion": {
+            "allows": ["knee_elbow_delay_ms"],
+            "requires": {
+            "knee_elbow_delay_ms": { "min": 0 },
+            "dip_duration_s": { "min": 0.45 }
+            },
+            "notes": "Two-motion shooters pause slightly between leg drive and arm release."
+        },
+
+        "high_apex": {
+            "allows": ["knee_angle_release_deg"],
+            "requires": {
+            "drive_duration_s": { "min": 0.8 },
+            "knee_rom_deg": { "min": 120.0 }
+            },
+            "notes": "High-apex shots require sufficient vertical impulse and leg ROM."
+        },
+
+        "smooth": {
+            "requires": {
+            "elbow_smoothness": { "min": 3000.0 },
+            "knee_smoothness": { "min": 3000.0 }
+            },
+            "notes": "Smooth shooters depend on temporal consistency rather than explosive motion."
+        },
+
+        "power_leg_driven": {
+            "requires": {
+            "knee_rom_deg": { "min": 45.0 },
+            "knee_smoothness": { "min": 2000.0 },
+            "drive_duration_s": { "min": 0.6 }
+            },
+            "notes": "Power-leg shooters generate force primarily from lower-body extension."
+        },
+
+        "quick_release": {
+            "allows": ["dip_duration_s"],
+            "requires": {
+            "dip_duration_s": { "max": 0.4 },
+            "knee_elbow_delay_ms": { "max": 150 }
+            },
+            "notes": "Quick releases minimize dip and leg-to-arm delay."
+        },
+
+        "high_release": {
+            "allows": ["shoulder_angle_release_deg"],
+            "requires": {
+            "elbow_angle_release_deg": { "min": 130.0 }
+            },
+            "notes": "High release points require greater elbow extension at release."
+        },
+
+        "rhythm_based": {
+            "requires": {
+            "dip_duration_s": { "min": 0.4 },
+            "drive_duration_s": { "min": 0.7 }
+            },
+            "notes": "Rhythm shooters rely on consistent temporal pacing."
+        }
+    }
+
+}
