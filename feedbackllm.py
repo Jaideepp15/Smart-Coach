@@ -1,42 +1,147 @@
-import os, requests, json
-from dotenv import load_dotenv
-load_dotenv()
+# feedbackllm.py
+import os
+import json
+from groq import Groq
+from typing import Dict, Any, List
+from retrieval import retrieve_docs
+from kg_reasoner import KnowledgeGraph
 
-GROQ_API_KEY = os.getenv('GROQ_API_KEY')
-GROQ_ENDPOINT = os.getenv('GROQ_ENDPOINT')
+# Replace with your actual Groq endpoint if different
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "<set_in_env>")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "groq-1-small")  # or 'groq-1-large' if available
+client = Groq(api_key=GROQ_API_KEY)
+kg = KnowledgeGraph("knowledge_graph.json")
 
-class CoachLLM:
-    def __init__(self, groq_endpoint=None, groq_key=None, model_name='gpt-like'):
-        self.groq_endpoint = groq_endpoint or GROQ_ENDPOINT
-        self.groq_key = groq_key or GROQ_API_KEY
-        self.model = model_name
+def build_prompt(bm, miss_dir,handedness) -> str:
+    kg_results = kg.evaluate_all(bm, handedness)
 
-    def _build_prompt(self, sport, level, issues, features, ref_context=None):
-        prompt = {
-            'system':'You are a professional basketball shooting coach. Provide concise, actionable drills and a one-sentence summary.',
-            'sport': sport,
-            'athlete_level': level,
-            'observed_issues': issues,
-            'numeric_summary': {k: round(float(sum(v)/len(v)),2) if isinstance(v,list) and len(v)>0 else v for k,v in features.items() if k!='fps'},
-            'reference_context': ref_context
-        }
-        return json.dumps(prompt, indent=2)
+    matched            = kg_results["matched_shooters"]
+    styles             = kg_results["active_styles"]
+    deviations         = kg_results["local_deviations"]
+    preserve           = kg_results["preserve_constraints"]
+    preserve_conflicts = kg_results["preserve_conflicts"]
 
-    def generate_tip(self, sport, level, issues, features, ref_context=None):
-        prompt = self._build_prompt(sport, level, issues, features, ref_context)
-        fall = {
-            'summary':'Focus on elbow extension timing and hip drive.',
-            'drills':['1) Slow-motion elbow extension reps','2) Hip-drive timed jumps (metronome)','3) Video mirror feedback 3x/week'],
-            'motivation':'Consistency beats intensity — small daily wins.'
-        }
-        if self.groq_endpoint and self.groq_key:
-            try:
-                headers = {'Authorization':f'Bearer {self.groq_key}', 'Content-Type':'application/json'}
-                payload = {'model':self.model, 'prompt':prompt, 'max_tokens':300}
-                r = requests.post(self.groq_endpoint, json=payload, headers=headers, timeout=12)
-                if r.status_code==200:
-                    return {'text': r.json().get('text', r.text), 'prompt': prompt}
-            except Exception as e:
-                print('Groq call failed:', e)
-        out = fall['summary'] + '\n' + '\n'.join(fall['drills']) + '\n' + fall['motivation']
-        return {'text': out, 'prompt': prompt}
+
+    angles_rel = bm["angles_at_release"]
+    angles_dip = bm["angles_at_dip"]
+    rom = bm["range_of_motion"]
+    timing = bm["timing"]
+    coord = bm["coordination"]
+    cons = bm["consistency"]
+
+    shot_summary = (
+        f"elbow_release={angles_rel['elbow']:.1f}, "
+        f"knee_release={angles_rel['knee']:.1f}, "
+        f"shoulder_release={angles_rel['shoulder']:.1f}, "
+        f"elbow_dip={angles_dip['elbow']:.1f}, "
+        f"knee_dip={angles_dip['knee']:.1f}, "
+        f"elbow_rom={rom['elbow_extension']:.1f}, "
+        f"knee_rom={rom['knee_extension']:.1f}, "
+        f"dip_time={timing['dip_duration_s']:.2f}, "
+        f"drive_time={timing['drive_duration_s']:.2f}, "
+        f"knee_to_elbow_delay={coord['knee_to_elbow_delay_s']:.3f}, "
+        f"elbow_smoothness={cons['elbow_smoothness']:.3f}"
+    )
+
+    rag_query = (
+        f"Biomechanics: {shot_summary}\n"
+        f"Miss-direction: {miss_dir}\n"
+        f"Matched shooter styles: {styles}\n"
+        f"Local deviations: {[d['deviation'] for d in deviations]}\n"
+        f"Preserve constraints: {list(preserve.keys())}\n"
+    )
+
+    rag_context = retrieve_docs(rag_query)
+
+    header = (
+        "You are a professional basketball shooting coach specializing in biomechanics.\n"
+        f"The shooter is **{handedness}**.\n"
+        "Your job is to diagnose the user's shooting mechanics and give clear, "
+        "actionable, prioritized coaching insights.\n\n"
+    )
+
+    biomech_section = (
+        "=== BIOMECHANICAL SUMMARY ===\n"
+        f"{shot_summary}\n\n"
+    )
+
+    kg_section = (
+        "=== SHOOTER STYLE MATCHING (KNOWLEDGE GRAPH) ===\n"
+        f"Top matched elite shooters (distance-based): {matched}\n"
+        f"Active shooter styles: {styles}\n\n"
+
+        "=== LOCAL DEVIATIONS WITHIN STYLE ===\n"
+        "Each deviation includes the affected feature, severity, and a suggested coaching cue.\n"
+        "Prioritize HIGH severity first, then MODERATE, then LOW.\n"
+        f"{json.dumps(deviations, indent=2)}\n\n"
+
+        "=== MECHANICS TO PRESERVE ===\n"
+        "The following mechanics are already sound for this shooter's style. "
+        "Do NOT give advice that degrades them.\n"
+        f"{json.dumps(preserve, indent=2)}\n\n"
+
+        "=== CORRECTION / PRESERVATION CONFLICTS ===\n"
+        "Where a correction overlaps with a preserved mechanic, frame the coaching cue carefully "
+        "to improve the deviation WITHOUT disrupting the preserved quality.\n"
+        f"{json.dumps(preserve_conflicts, indent=2)}\n\n"
+
+        "IMPORTANT:\n"
+        "- Preserve the shooter's matched style traits.\n"
+        "- Only correct the listed local deviations.\n"
+        "- Do NOT suggest textbook form changes.\n"
+        "- Use the coaching_cue from each deviation as a starting point, but adapt to the full context.\n\n"
+    )
+
+    rag_section = (
+        "=== RETRIEVED EVIDENCE FROM KNOWLEDGE BASE ===\n"
+        f"{rag_context}\n\n"
+    )
+
+    miss_section = (
+        f"=== USER MISS PATTERNS ===\n"
+        f"{miss_dir}\n\n"
+    )
+
+    instructions = (
+        "=== TASK ===\n"
+        "Provide:\n"
+        "A) The top 3 highest-priority corrections (short, clear, actionable).\n"
+        "B) 2 drills with short step-by-step execution.\n"
+        "C) A positive 1-paragraph encouragement.\n"
+        "D) One quantifiable goal for the next session.\n"
+        "Keep tone supportive, expert, and direct.\n"
+    )
+
+    final_prompt = (
+        header +
+        biomech_section +
+        miss_section +
+        kg_section +
+        rag_section +
+        instructions
+    )
+
+    return final_prompt
+
+def query_groq(prompt: str, max_tokens: int = 512, temperature: float = 0.0) -> str:
+    completion = client.chat.completions.create(
+    model=GROQ_MODEL,
+    messages=[
+      {
+        "role": "user",
+        "content": prompt
+      }
+    ],
+    temperature=temperature,
+    top_p=1,
+    reasoning_effort="medium",
+    )
+    return completion.choices[0].message.content
+
+def generate_coaching(shot_metrics: List[Dict], miss_dir, handedness, extra_context: str = "") -> Dict[str,Any]:
+    """
+    Compose prompt, call Groq, return textual coaching. For RAG, we rely on RAG_DOC_URL being available to Groq infra.
+    """
+    prompt = build_prompt(shot_metrics, miss_dir, handedness)
+    text = query_groq(prompt)
+    return {"coach_text": text, "prompt": prompt}

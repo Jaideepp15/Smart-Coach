@@ -1,192 +1,249 @@
 {
     "feature_nodes": {
         "elbow_angle_release_deg": {"unit": "deg"},
-        "knee_angle_release_deg": {"unit": "deg"},
+        "knee_angle_release_deg":  {"unit": "deg"},
         "shoulder_angle_release_deg": {"unit": "deg"},
-        "dip_duration_s": {"unit": "s"},
-        "drive_duration_s": {"unit": "s"},
-        "knee_elbow_delay_ms": {"unit": "ms"},
-        "elbow_rom_deg": {"unit": "deg"},
-        "knee_rom_deg": {"unit": "deg"},
-        "elbow_smoothness": {"unit": "unitless"},
-        "knee_smoothness": {"unit": "unitless"}
+        "dip_duration_s":          {"unit": "s"},
+        "drive_duration_s":        {"unit": "s"},
+        "knee_elbow_delay_ms":     {"unit": "ms"},
+        "elbow_rom_deg":           {"unit": "deg"},
+        "knee_rom_deg":            {"unit": "deg"},
+        "elbow_smoothness":        {"unit": "unitless"},
+        "knee_smoothness":         {"unit": "unitless"}
     },
 
     "elite_shooters": {
-        "Shooter_01": { 
+        "Shooter_01": {
             "display_name": "Lebron James",
             "manifold": {
-                "elbow_angle_release_deg": "115.1",
-                "knee_angle_release_deg": "109.7",
+                "elbow_angle_release_deg":  "115.1",
+                "knee_angle_release_deg":   "109.7",
                 "shoulder_angle_release_deg": "147.0",
-                "dip_duration_s": "0.60",
-                "drive_duration_s": "0.10",
-                "knee_elbow_delay_ms": "0",
-                "elbow_rom_deg": "19.6",
-                "knee_rom_deg": "22.8",
-                "elbow_smoothness": "6122.89",
-                "knee_smoothness": "7175.56" 
+                "dip_duration_s":           "0.60",
+                "drive_duration_s":         "0.10",
+                "knee_elbow_delay_ms":      "0",
+                "elbow_rom_deg":            "19.6",
+                "knee_rom_deg":             "22.8",
+                "elbow_smoothness":         "6122.89",
+                "knee_smoothness":          "7175.56"
             },
-            "style_traits": ["two_motion"] 
+            "style_traits": ["two_motion"]
         },
-        "Shooter_02": { 
+        "Shooter_02": {
             "display_name": "Klay Thompson",
             "manifold": {
-                "elbow_angle_release_deg": "84.1",
-                "knee_angle_release_deg": "172.5",
+                "elbow_angle_release_deg":  "84.1",
+                "knee_angle_release_deg":   "172.5",
                 "shoulder_angle_release_deg": "18.6",
-                "dip_duration_s": "0.53",
-                "drive_duration_s": "0.87",
-                "knee_elbow_delay_ms": "133",
-                "elbow_rom_deg": "114.3",
-                "knee_rom_deg": "135.0",
-                "elbow_smoothness": "4678.77",
-                "knee_smoothness": "5132.10" 
-            }, 
-            "style_traits": ["high_apex", "smooth"] 
+                "dip_duration_s":           "0.53",
+                "drive_duration_s":         "0.87",
+                "knee_elbow_delay_ms":      "133",
+                "elbow_rom_deg":            "114.3",
+                "knee_rom_deg":             "135.0",
+                "elbow_smoothness":         "4678.77",
+                "knee_smoothness":          "5132.10"
+            },
+            "style_traits": ["high_apex", "smooth"]
         },
-        "Shooter_03": { 
+        "Shooter_03": {
             "display_name": "Ray Allen",
             "manifold": {
-                "elbow_angle_release_deg": "141.0",
-                "knee_angle_release_deg": "93.4",
+                "elbow_angle_release_deg":  "141.0",
+                "knee_angle_release_deg":   "93.4",
                 "shoulder_angle_release_deg": "14.5",
-                "dip_duration_s": "0.57",
-                "drive_duration_s": "1.27",
-                "knee_elbow_delay_ms": "133",
-                "elbow_rom_deg": "125.7",
-                "knee_rom_deg": "144.1",
-                "elbow_smoothness": "3169.24",
-                "knee_smoothness": "4347.47"
-            }, 
+                "dip_duration_s":           "0.57",
+                "drive_duration_s":         "1.27",
+                "knee_elbow_delay_ms":      "133",
+                "elbow_rom_deg":            "125.7",
+                "knee_rom_deg":             "144.1",
+                "elbow_smoothness":         "3169.24",
+                "knee_smoothness":          "4347.47"
+            },
             "style_traits": ["high_release"]
         },
-        "Shooter_04": { 
+        "Shooter_04": {
             "display_name": "Stephen Curry",
             "manifold": {
-                "elbow_angle_release_deg": "115.6",
-                "knee_angle_release_deg": "156.5",
+                "elbow_angle_release_deg":  "115.6",
+                "knee_angle_release_deg":   "156.5",
                 "shoulder_angle_release_deg": "56.7",
-                "dip_duration_s": "0.33",
-                "drive_duration_s": "0.93",
-                "knee_elbow_delay_ms": "167",
-                "elbow_rom_deg": "44",
-                "knee_rom_deg": "57.8",
-                "elbow_smoothness": "1827.04",
-                "knee_smoothness": "2180.28"
-            }, 
-            "style_traits": ["one_motion","tilted"] 
+                "dip_duration_s":           "0.33",
+                "drive_duration_s":         "0.93",
+                "knee_elbow_delay_ms":      "167",
+                "elbow_rom_deg":            "44",
+                "knee_rom_deg":             "57.8",
+                "elbow_smoothness":         "1827.04",
+                "knee_smoothness":          "2180.28"
+            },
+            "style_traits": ["one_motion", "tilted"]
         },
-        "Shooter_05": { 
+        "Shooter_05": {
             "display_name": "Damian Lillard",
             "manifold": {
-                "elbow_angle_release_deg": "115.1",
-                "knee_angle_release_deg": "148.2",
+                "elbow_angle_release_deg":  "115.1",
+                "knee_angle_release_deg":   "148.2",
                 "shoulder_angle_release_deg": "16.9",
-                "dip_duration_s": "0.30",
-                "drive_duration_s": "0.70",
-                "knee_elbow_delay_ms": "-267",
-                "elbow_rom_deg": "145.3",
-                "knee_rom_deg": "48.3",
-                "elbow_smoothness": "5040.24",
-                "knee_smoothness": "2534.09" 
-            }, 
-            "style_traits": ["power_leg_driven","tilted"] 
+                "dip_duration_s":           "0.30",
+                "drive_duration_s":         "0.70",
+                "knee_elbow_delay_ms":      "-267",
+                "elbow_rom_deg":            "145.3",
+                "knee_rom_deg":             "48.3",
+                "elbow_smoothness":         "5040.24",
+                "knee_smoothness":          "2534.09"
+            },
+            "style_traits": ["power_leg_driven", "tilted"]
         },
-        "Shooter_06": { 
+        "Shooter_06": {
             "display_name": "Eric Gordon",
             "manifold": {
-                "elbow_angle_release_deg": "53.6",
-                "knee_angle_release_deg": "141.2",
+                "elbow_angle_release_deg":  "53.6",
+                "knee_angle_release_deg":   "141.2",
                 "shoulder_angle_release_deg": "5.5",
-                "dip_duration_s": "0.73",
-                "drive_duration_s": "0.23",
-                "knee_elbow_delay_ms": "-33",
-                "elbow_rom_deg": "57.5",
-                "knee_rom_deg": "76.5",
-                "elbow_smoothness": "6388.23",
-                "knee_smoothness": "4377.17" 
-            }, 
-            "style_traits": ["power_leg_driven"] 
+                "dip_duration_s":           "0.73",
+                "drive_duration_s":         "0.23",
+                "knee_elbow_delay_ms":      "-33",
+                "elbow_rom_deg":            "57.5",
+                "knee_rom_deg":             "76.5",
+                "elbow_smoothness":         "6388.23",
+                "knee_smoothness":          "4377.17"
+            },
+            "style_traits": ["power_leg_driven"]
         }
     },
+
     "style_constraints": {
 
-        "high_shoulder_tilt": {
-            "allows": ["shoulder_angle_release_deg"],
-            "requires": {
-            "elbow_angle_release_deg": { "min": 105.0 },
-            "elbow_rom_deg": { "min": 35.0 }
-            },
-            "notes": "When torso is tilted, elbow extension must compensate to maintain vertical force direction."
-        },
-
         "tilted": {
+            "_merged_from": ["tilted", "high_shoulder_tilt"],
             "allows": ["shoulder_angle_release_deg"],
             "requires": {
-            "elbow_angle_release_deg": { "min": 100.0 }
+                "elbow_angle_release_deg": { "min": 105.0 },
+                "elbow_rom_deg":           { "min": 35.0, "max": 160.0 }
             },
-            "notes": "Mild torso tilt is acceptable if elbow extension is sufficient."
+            "deviation_labels": {
+                "elbow_angle_release_deg_below_min": "under_extended_elbow",
+                "elbow_rom_deg_below_min":           "insufficient_elbow_arc_for_tilt",
+                "elbow_rom_deg_above_max":           "excessive_elbow_dip"
+            },
+            "notes": "Torso tilt (mild or pronounced) is acceptable only when elbow extension sufficiently compensates to maintain vertical force direction. Merged from former high_shoulder_tilt (strict) and tilted (mild) — the stricter elbow_angle min of 105 deg is retained as the unified threshold. elbow_rom_deg max guards against excessive arm dip under tilt."
         },
 
         "compact": {
             "allows": ["dip_duration_s"],
             "requires": {
-            "elbow_rom_deg": { "min": 40.0 },
-            "elbow_smoothness": { "min": 2500.0 }
+                "elbow_rom_deg":    { "min": 40.0, "max": 160.0 },
+                "elbow_smoothness": { "min": 2500.0 }
             },
-            "notes": "Compact shooters rely on smooth elbow ROM rather than large leg motion."
+            "deviation_labels": {
+                "elbow_rom_deg_below_min": "insufficient_elbow_arc",
+
+                "elbow_rom_deg_above_max": "excessive_elbow_dip",
+                "elbow_smoothness_below_min": "jerky_elbow_motion"
+            },
+            "notes": "Compact shooters rely on smooth, controlled elbow ROM rather than large leg motion. Max elbow_rom_deg guards against the arm dipping excessively before the pocket."
         },
 
         "one_motion": {
             "allows": ["dip_duration_s", "drive_duration_s"],
             "requires": {
-            "knee_elbow_delay_ms": { "max": 200 },
-            "drive_duration_s": { "min": 0.6 }
+                "knee_elbow_delay_ms": { "min": -150, "max": 200 },
+                "drive_duration_s":    { "min": 0.6 },
+                "dip_duration_s":      { "max": 0.55 },
+                "knee_rom_deg":        { "min": 30.0 },
+                "elbow_rom_deg":       { "max": 160.0 }
             },
-            "notes": "One-motion shots require continuous kinetic chaining from legs to arm."
+            "deviation_labels": {
+                "knee_elbow_delay_ms_below_min": "early_arm_release",
+                "knee_elbow_delay_ms_above_max": "late_arm_release",
+                "dip_duration_s_above_max":      "excessive_dip_time",
+                "knee_rom_deg_below_min":        "insufficient_knee_rom",
+                "elbow_rom_deg_above_max":       "excessive_elbow_dip"
+            },
+            "notes": "One-motion shots require continuous kinetic chaining from legs to arm with no pause. dip_duration_s max prevents an inadvertent two-motion pattern. knee_elbow_delay_ms min of -150 ms catches early arm release (arm fires well before legs complete). knee_rom_deg min ensures legs contribute meaningfully even in fluid shots."
         },
 
         "two_motion": {
             "allows": ["knee_elbow_delay_ms"],
             "requires": {
-            "knee_elbow_delay_ms": { "min": 0 },
-            "dip_duration_s": { "min": 0.45 }
+                "knee_elbow_delay_ms":     { "min": 0, "max": 300 },
+                "dip_duration_s":          { "min": 0.45, "max": 0.80 },
+                "elbow_angle_release_deg": { "min": 100.0 },
+                "elbow_rom_deg":           { "max": 160.0 }
             },
-            "notes": "Two-motion shooters pause slightly between leg drive and arm release."
+            "deviation_labels": {
+                "knee_elbow_delay_ms_below_min": "early_arm_release",
+                "knee_elbow_delay_ms_above_max": "late_arm_release",
+                "dip_duration_s_below_min":      "insufficient_dip_for_two_motion",
+                "dip_duration_s_above_max":      "excessive_dip_time",
+                "elbow_angle_release_deg_below_min": "low_release_point",
+                "elbow_rom_deg_above_max":       "excessive_elbow_dip"
+            },
+            "notes": "Two-motion shooters intentionally pause between leg drive and arm release; the delay window (0–300 ms) defines that pause. dip_duration_s max of 0.80 s flags an excessively prolonged load phase. elbow_angle_release_deg min catches low release points. elbow_rom_deg max catches excessive arm dip in the set position."
         },
 
         "high_apex": {
             "allows": ["knee_angle_release_deg"],
             "requires": {
-            "drive_duration_s": { "min": 0.8 },
-            "knee_rom_deg": { "min": 120.0 }
+                "drive_duration_s":        { "min": 0.8 },
+                "knee_rom_deg":            { "min": 120.0 },
+                "dip_duration_s":          { "max": 0.70 },
+                "knee_elbow_delay_ms":     { "min": 0, "max": 250 },
+                "elbow_angle_release_deg": { "min": 100.0 }
             },
-            "notes": "High-apex shots require sufficient vertical impulse and leg ROM."
+            "deviation_labels": {
+                "drive_duration_s_below_min":        "insufficient_drive_for_high_apex",
+                "knee_rom_deg_below_min":            "insufficient_knee_rom",
+                "dip_duration_s_above_max":          "excessive_dip_time",
+                "knee_elbow_delay_ms_below_min":     "early_arm_release",
+                "knee_elbow_delay_ms_above_max":     "late_arm_release",
+                "elbow_angle_release_deg_below_min": "under_extended_elbow"
+            },
+            "notes": "High-apex shots require sufficient vertical impulse and full leg ROM. dip_duration_s max prevents the load phase from killing upward momentum. knee_elbow_delay_ms bounds catch both early and late arm release relative to the leg drive. elbow_angle_release_deg min catches the under-extended elbow deviation common in this style."
         },
 
         "smooth": {
             "requires": {
-            "elbow_smoothness": { "min": 3000.0 },
-            "knee_smoothness": { "min": 3000.0 }
+                "elbow_smoothness": { "min": 3000.0 },
+                "knee_smoothness":  { "min": 3000.0 },
+                "knee_rom_deg":     { "min": 30.0 },
+                "dip_duration_s":   { "max": 0.70 }
             },
-            "notes": "Smooth shooters depend on temporal consistency rather than explosive motion."
+            "deviation_labels": {
+                "elbow_smoothness_below_min": "jerky_elbow_motion",
+                "knee_smoothness_below_min":  "jerky_knee_motion",
+                "knee_rom_deg_below_min":     "insufficient_knee_rom",
+                "dip_duration_s_above_max":   "excessive_dip_time"
+            },
+            "notes": "Smooth shooters depend on temporal consistency rather than explosive motion. knee_rom_deg min ensures the legs still contribute a baseline extension even in fluid shots — pure arm shooting without leg engagement is a deviation. dip_duration_s max flags disruptions in the smooth rhythm caused by an overly prolonged load."
         },
 
         "power_leg_driven": {
             "requires": {
-            "knee_rom_deg": { "min": 45.0 },
-            "knee_smoothness": { "min": 2000.0 },
-            "drive_duration_s": { "min": 0.6 }
+                "knee_rom_deg":        { "min": 45.0 },
+                "knee_smoothness":     { "min": 2000.0 },
+                "drive_duration_s":    { "min": 0.6 },
+                "dip_duration_s":      { "max": 0.80 },
+                "elbow_rom_deg":       { "max": 170.0 }
             },
-            "notes": "Power-leg shooters generate force primarily from lower-body extension."
+            "deviation_labels": {
+                "knee_rom_deg_below_min":    "insufficient_knee_rom",
+                "knee_smoothness_below_min": "jerky_knee_motion",
+                "drive_duration_s_below_min": "insufficient_drive_duration",
+                "dip_duration_s_above_max":  "excessive_dip_time",
+                "elbow_rom_deg_above_max":   "excessive_elbow_dip"
+            },
+            "notes": "Power-leg shooters generate force primarily from lower-body extension. dip_duration_s max prevents an excessively long load from reducing the effective power transfer window. elbow_rom_deg max catches an arm that dips too deep before the shot pocket — in this style the legs do the work, so the arm should stay compact."
         },
 
         "quick_release": {
             "allows": ["dip_duration_s"],
             "requires": {
-            "dip_duration_s": { "max": 0.4 },
-            "knee_elbow_delay_ms": { "max": 150 }
+                "dip_duration_s":      { "max": 0.4 },
+                "knee_elbow_delay_ms": { "max": 150 }
+            },
+            "deviation_labels": {
+                "dip_duration_s_above_max":      "excessive_dip_time",
+                "knee_elbow_delay_ms_above_max": "late_arm_release"
             },
             "notes": "Quick releases minimize dip and leg-to-arm delay."
         },
@@ -194,18 +251,190 @@
         "high_release": {
             "allows": ["shoulder_angle_release_deg"],
             "requires": {
-            "elbow_angle_release_deg": { "min": 130.0 }
+                "elbow_angle_release_deg": { "min": 130.0 },
+                "dip_duration_s":          { "max": 0.75 },
+                "knee_elbow_delay_ms":     { "min": -100, "max": 250 }
             },
-            "notes": "High release points require greater elbow extension at release."
+            "deviation_labels": {
+                "elbow_angle_release_deg_below_min": "low_release_point",
+                "dip_duration_s_above_max":          "excessive_dip_time",
+                "knee_elbow_delay_ms_below_min":     "early_arm_release",
+                "knee_elbow_delay_ms_above_max":     "late_arm_release"
+            },
+            "notes": "High release points require greater elbow extension at release. dip_duration_s max prevents a prolonged load from disrupting the upward release timing. knee_elbow_delay_ms bounds catch both early arm release (negative delay too large) and late arm release relative to the leg drive."
         },
 
         "rhythm_based": {
             "requires": {
-            "dip_duration_s": { "min": 0.4 },
-            "drive_duration_s": { "min": 0.7 }
+                "dip_duration_s":  { "min": 0.4, "max": 0.75 },
+                "drive_duration_s": { "min": 0.7 }
             },
-            "notes": "Rhythm shooters rely on consistent temporal pacing."
+            "deviation_labels": {
+                "dip_duration_s_below_min":  "insufficient_dip_for_rhythm",
+                "dip_duration_s_above_max":  "excessive_dip_time",
+                "drive_duration_s_below_min": "insufficient_drive_duration"
+            },
+            "notes": "Rhythm shooters rely on consistent temporal pacing. dip_duration_s max is added to catch an overly prolonged load that breaks the rhythm cadence."
+        }
+    },
+
+    "deviation_catalog": {
+        "_description": "Human-readable index of all detectable deviations. Keys match values in style_constraints deviation_labels. The reasoner maps raw threshold violations to these entries for coaching output.",
+
+        "excessive_dip_time": {
+            "feature":   "dip_duration_s",
+            "direction": "above_max",
+            "severity":  "moderate",
+            "coaching_cue": "Your load phase is too long — shorten the time between the start of your dip and the beginning of your upward drive to maintain momentum into the shot."
+        },
+        "late_arm_release": {
+            "feature":   "knee_elbow_delay_ms",
+            "direction": "above_max",
+            "severity":  "high",
+            "coaching_cue": "Your arm is firing too late relative to your leg drive. The legs have already peaked before the arm engages — initiate the arm extension sooner to keep the kinetic chain connected."
+        },
+        "early_arm_release": {
+            "feature":   "knee_elbow_delay_ms",
+            "direction": "below_min",
+            "severity":  "high",
+            "coaching_cue": "Your arm is releasing before your legs have completed their drive. Let the leg push lead — hold the elbow back a fraction longer until the legs have transferred their force upward."
+        },
+        "low_release_point": {
+            "feature":   "elbow_angle_release_deg",
+            "direction": "below_min",
+            "severity":  "moderate",
+            "coaching_cue": "Your release point is too low. Extend the elbow further at the moment of release to push the ball higher and reduce the chance of a blocked shot."
+        },
+        "under_extended_elbow": {
+            "feature":   "elbow_angle_release_deg",
+            "direction": "below_min",
+            "severity":  "high",
+            "coaching_cue": "Your elbow is not reaching full extension at release. Focus on following through completely — the elbow should lock out toward the target, not stop partway."
+        },
+        "insufficient_knee_rom": {
+            "feature":   "knee_rom_deg",
+            "direction": "below_min",
+            "severity":  "moderate",
+            "coaching_cue": "Your legs are not contributing enough range of motion to the shot. Bend deeper in the load phase and use a full leg extension to drive the ball upward."
+        },
+        "excessive_elbow_dip": {
+            "feature":   "elbow_rom_deg",
+            "direction": "above_max",
+            "severity":  "moderate",
+            "coaching_cue": "Your elbow is traveling through an excessively large arc before the shot pocket. Tighten the set position — keep the ball closer to the release window and reduce the arm's downward travel."
+        },
+        "jerky_elbow_motion": {
+            "feature":   "elbow_smoothness",
+            "direction": "below_min",
+            "severity":  "low",
+            "coaching_cue": "Your elbow motion is inconsistent across the shot. Focus on a fluid, continuous extension rather than a jerky or rushed movement through the release."
+        },
+        "jerky_knee_motion": {
+            "feature":   "knee_smoothness",
+            "direction": "below_min",
+            "severity":  "low",
+            "coaching_cue": "Your knee bend is uneven or abrupt. Work on a smooth, controlled squat-and-drive rhythm to improve force transfer consistency."
+        },
+        "insufficient_drive_for_high_apex": {
+            "feature":   "drive_duration_s",
+            "direction": "below_min",
+            "severity":  "moderate",
+            "coaching_cue": "Your upward drive phase is too short to generate a high-apex trajectory. Lengthen and slow the drive to push the ball on a higher arc."
+        },
+        "insufficient_drive_duration": {
+            "feature":   "drive_duration_s",
+            "direction": "below_min",
+            "severity":  "moderate",
+            "coaching_cue": "Your drive phase is too short for your shooting style. Allow more time for leg extension to fully transfer energy into the shot."
+        },
+        "insufficient_elbow_arc_for_tilt": {
+            "feature":   "elbow_rom_deg",
+            "direction": "below_min",
+            "severity":  "moderate",
+            "coaching_cue": "With a tilted torso, your elbow needs to travel through a wider arc to compensate. Increase your elbow range of motion at the shot pocket."
+        },
+        "insufficient_arc": {
+            "feature":   "elbow_rom_deg",
+            "direction": "below_min",
+            "severity":  "low",
+            "coaching_cue": "Elbow ROM is below the minimum for your style. Ensure a full, controlled extension through the shot."
+        },
+        "insufficient_elbow_arc": {
+            "feature":   "elbow_rom_deg",
+            "direction": "below_min",
+            "severity":  "low",
+            "coaching_cue": "Your elbow arc is too small for a compact shooting style. Even compact shooters need a minimum range of motion to generate clean extension — widen the pocket slightly while keeping the motion tight."
+        },
+        "insufficient_dip_for_two_motion": {
+            "feature":   "dip_duration_s",
+            "direction": "below_min",
+            "severity":  "low",
+            "coaching_cue": "Your dip is too brief for a two-motion shot. Allow a deliberate pause at the bottom of the load to establish the rhythm separation between legs and arm."
+        },
+        "insufficient_dip_for_rhythm": {
+            "feature":   "dip_duration_s",
+            "direction": "below_min",
+            "severity":  "low",
+            "coaching_cue": "Your dip phase is too short to establish shot rhythm. Slow down the initial load to build a consistent timing foundation."
+        }
+    },
+
+    "preserve_constraints": {
+        "_description": "Features or qualities the coaching system must NOT degrade when generating corrections. Sourced from the evaluation dataset. The reasoner surfaces these alongside deviations so coaching cues avoid conflicting advice.",
+
+        "shoulder_alignment": {
+            "quantified": false,
+            "related_feature": "shoulder_angle_release_deg",
+            "description": "The shooter's shoulder angle at release is well-aligned for their style. Do not suggest posture changes that would alter shoulder orientation.",
+            "relevant_styles": ["tilted", "two_motion", "high_release", "power_leg_driven"]
+        },
+        "wrist_snap": {
+            "quantified": false,
+            "related_feature": null,
+            "description": "The shooter's wrist snap and follow-through are mechanically sound. Do not give feedback that would disrupt hand position or release finger pressure.",
+            "relevant_styles": ["two_motion", "power_leg_driven", "quick_release", "high_release"]
+        },
+        "torso_tilt": {
+            "quantified": true,
+            "related_feature": "shoulder_angle_release_deg",
+            "preserve_condition": "allows",
+            "description": "The shooter's torso tilt is intentional and permitted by the tilted style constraint. Corrections to elbow or arm extension must account for tilt rather than trying to eliminate it.",
+            "relevant_styles": ["tilted"]
+        },
+        "knee_rom": {
+            "quantified": true,
+            "related_feature": "knee_rom_deg",
+            "preserve_condition": "above_min",
+            "description": "When knee ROM is within or above the required range for the shooter's style, do not suggest reducing leg bend. Only flag knee ROM as a problem when it falls below the style minimum.",
+            "relevant_styles": ["high_apex", "power_leg_driven", "one_motion", "smooth"]
+        },
+        "high_apex": {
+            "quantified": true,
+            "related_feature": "drive_duration_s",
+            "preserve_condition": "above_min",
+            "description": "The shooter's high-apex arc is a defining stylistic trait. Corrections to timing or leg drive must not flatten the trajectory. Protect drive_duration_s from being shortened.",
+            "relevant_styles": ["high_apex"]
+        },
+        "one_motion_flow": {
+            "quantified": true,
+            "related_feature": "knee_elbow_delay_ms",
+            "preserve_condition": "within_bounds",
+            "description": "The continuity of the one-motion kinetic chain is a core trait. Do not suggest pauses or deliberate separations between leg drive and arm release that would introduce two-motion characteristics.",
+            "relevant_styles": ["one_motion"]
+        },
+        "dip_rhythm": {
+            "quantified": true,
+            "related_feature": "dip_duration_s",
+            "preserve_condition": "within_bounds",
+            "description": "The shooter's dip timing is a core rhythmic anchor. When dip_duration_s is within the acceptable range for the style, do not suggest altering its duration. Only intervene when it exceeds the style max.",
+            "relevant_styles": ["smooth", "tilted", "rhythm_based", "one_motion"]
+        },
+        "compact_pocket": {
+            "quantified": true,
+            "related_feature": "elbow_rom_deg",
+            "preserve_condition": "within_bounds",
+            "description": "The shooter's compact set position (low elbow_rom_deg) is intentional. Do not suggest widening the arm arc. Only flag elbow_rom_deg when it exceeds the style max (excessive_elbow_dip).",
+            "relevant_styles": ["compact", "one_motion", "two_motion"]
         }
     }
-
 }

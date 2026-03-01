@@ -1,0 +1,622 @@
+[
+  {
+    "category": "biomechanics",
+    "title": "Elbow alignment & extension",
+    "year": 2015,
+    "source": "Okazaki et al.; Physiopedia 2024",
+    "content": "Studies show optimal elbow alignment involves ~5° inward angle and near full extension (165°–180°) at release for maximum force transfer and accuracy.",
+    "tags": ["elbow_angle", "extension", "accuracy", "biomechanics"]
+  },
+  {
+    "category": "biomechanics",
+    "title": "Hip–shoulder square alignment",
+    "year": 2018,
+    "source": "Okazaki & Rodacki",
+    "content": "Maintaining a square hip-shoulder alignment stabilizes the body, preventing lateral deviations.",
+    "tags": ["hip_shoulder", "alignment", "balance", "biomechanics"]
+  },
+  {
+    "category": "biomechanics",
+    "title": "Wrist snap & ball spin mechanics",
+    "year": 2015,
+    "source": "Button et al.; JSSM 2021",
+    "content": "Controlled wrist flexion imparts backspin, enhancing ball control and accuracy. Premature or delayed wrist snap reduces shot effectiveness.",
+    "tags": ["wrist_snap", "backspin", "release", "biomechanics"]
+  },
+  {
+    "category": "biomechanics",
+    "title": "Ball pocket & dip timing",
+    "year": 2024,
+    "source": "Hamilton & Reinschmidt",
+    "content": "Consistent dip depth and timing directly correlate with rhythm and power generation efficiency.",
+    "tags": ["dip", "pocket", "timing", "sequencing"]
+  },
+  {
+    "category": "biomechanics",
+    "title": "Knee bend + power generation",
+    "year": 2025,
+    "source": "Physiopedia; Khel Journal",
+    "content": "Strong knee flexion recruits leg muscle power for verticality and jump height, which is linked to release speed and effective long-range shots.",
+    "tags": ["knee_bend", "power", "verticality"]
+  },
+  {
+    "category": "biomechanics",
+    "title": "Follow-through & off-hand usage",
+    "year": 2024,
+    "source": "USA Basketball; Physiopedia",
+    "content": "A smooth follow-through with a 'gooseneck' wrist posture guides the shot; the off-hand stabilizes the ball without pushing.",
+    "tags": ["follow_through", "off_hand", "shooting_mechanics"]
+  },
+  {
+    "category": "biomechanics",
+    "title": "Optimal release angle",
+    "year": 2024,
+    "source": "Hamilton & Reinschmidt; Breakthrough Basketball 2025",
+    "content": "A release angle between 52° to 55° offers the best compromise between trajectory and shot margin of error.",
+    "tags": ["release_angle", "trajectory", "arc"]
+  },
+  {
+    "category": "biomechanics",
+    "title": "Release timing fundamentals",
+    "year": 2024,
+    "source": "Physiopedia; Okazaki et al.",
+    "content": "Releasing at the apex of the jump maximizes verticality and precision in targeting the basket.",
+    "tags": ["release_timing", "jump_apex", "accuracy"]
+  },
+  {
+    "category": "biomechanics",
+    "title": "Biomechanical phases of the jump shot",
+    "year": 2024,
+    "source": "Physiopedia 2024",
+    "content": "Preparation, ball elevation, stability, release, and inertia phases require coordinated muscle control and balance to optimize shot success.",
+    "tags": ["biomechanical_phases", "muscle_coordination", "balance"]
+  },
+  {
+    "category": "fundamentals",
+    "title": "USA Basketball Coaching Fundamentals",
+    "year": 2024,
+    "source": "USA Basketball",
+    "content": "Emphasizes eye focus, stance consistency, shot pocket placement, grip, balance hand, delivery mechanics, follow-through, and lower-body power generation with detailed drills.",
+    "tags": ["fundamentals", "drills", "USA_Basketball"]
+  },
+  {
+    "category": "fundamentals",
+    "title": "FIBA Academy Shooting Fundamentals",
+    "year": 2024,
+    "source": "FIBA Academy",
+    "content": "Focuses on footwork, shooting checklists, rhythm, timing, elbow positioning, and ball control with comprehensive progressive drills.",
+    "tags": ["fundamentals", "footwork", "checklist", "FIBA"]
+  },
+  {
+    "category": "fundamentals",
+    "title": "NBA Jr. NBA Skill Development",
+    "year": 2024,
+    "source": "NBA Jr. NBA",
+    "content": "Develops fast-paced skill drills targeting off-hand control, rapid shot repetitions, and fundamental form emphasizing balance and rhythm.",
+    "tags": ["skill_development", "drills", "Jr_NBA"]
+  },
+  {
+    "category": "errors",
+    "title": "Elbow flare >10°",
+    "year": 2023,
+    "source": "USA Basketball Coaching Clinics",
+    "content": "Elbow flare greater than 10° directs lateral force misaligning the shot. Corrected with wall alignment and mirror feedback drills.",
+    "tags": ["elbow_flare", "misalignment", "correction"]
+  },
+  {
+    "category": "errors",
+    "title": "Chicken wing elbow",
+    "year": 2023,
+    "source": "Coaching Clinics",
+    "content": "Premature elbow extension leads to inconsistent release. Drills focus on elbow tuck and stabilization.",
+    "tags": ["chicken_wing", "elbow_position", "drill"]
+  },
+  {
+    "category": "errors",
+    "title": "Inconsistent dip",
+    "year": 2023,
+    "source": "Applied Biomechanics Literature",
+    "content": "Inconsistent dip disrupts shot timing and power; rhythm and pocket-to-release drills are recommended.",
+    "tags": ["dip", "rhythm", "power"]
+  },
+  {
+    "category": "errors",
+    "title": "Too deep dip",
+    "year": 2023,
+    "source": "ResearchGate Thesis",
+    "content": "Shot rhythm delay and power reduction caused by excessive dip depth; corrected by set-point and knee-hip coordination drills.",
+    "tags": ["dip_depth", "timing", "coordination"]
+  },
+  {
+    "category": "errors",
+    "title": "Premature wrist snap",
+    "year": 2022,
+    "source": "Biomechanics Clinics",
+    "content": "Premature wrist snap reduces spin control, leading to short or inconsistent shots; timing drills and fingertip control workouts help correct this.",
+    "tags": ["wrist_snap", "timing", "spin_control"]
+  },
+  {
+    "category": "errors",
+    "title": "Off-hand interference",
+    "year": 2023,
+    "source": "USA Basketball and FIBA Skill Development",
+    "content": "Off-hand pushes the ball off-line; specific off-hand control drills promote stabilization without pushing.",
+    "tags": ["off_hand", "interference", "control"]
+  },
+  {
+    "category": "errors",
+    "title": "Leaning forward/backward",
+    "year": 2023,
+    "source": "Biomechanics Theses; NCAA Clinics",
+    "content": "Leaning impacts balance and shot consistency; corrected by mirrored shooting and balance drills.",
+    "tags": ["posture", "balance", "correction"]
+  },
+  {
+    "category": "errors",
+    "title": "Slow release speed",
+    "year": 2023,
+    "source": "Biomechanics and Coaching Clinics",
+    "content": "Slow release increases risk of blocks; speed and rhythm training improve release quickness.",
+    "tags": ["release_speed", "reaction", "speed_training"]
+  },
+  {
+    "category": "errors",
+    "title": "Hitch in shot",
+    "year": 2023,
+    "source": "Wall Feedback Training",
+    "content": "Jerky movements affecting fluidity; slow-motion drills and wall feedback foster smooth shooting motion.",
+    "tags": ["hitch", "fluidity", "drills"]
+  },
+  {
+    "category": "errors",
+    "title": "No follow-through",
+    "year": 2023,
+    "source": "Coaching Literature",
+    "content": "Lack of follow-through decreases ball spin and control; emphasis on 'gooseneck' finish improves shot consistency.",
+    "tags": ["follow_through", "ball_spin", "shooting_consistency"]
+  },
+  {
+    "category": "miss_diagnostics",
+    "title": "Why shots go left/right",
+    "year": 2024,
+    "source": "USA Basketball Diagnostics",
+    "content": "Lateral misses typically result from asymmetrical shoulder torque or off-hand force; targeted drills improve shoulder stabilization and reduce off-hand pushing.",
+    "tags": ["left_miss", "right_miss", "shoulder_torque", "off_hand"]
+  },
+  {
+    "category": "miss_diagnostics",
+    "title": "Why shots go short/long",
+    "year": 2024,
+    "source": "FIBA Coaching Clinics",
+    "content": "Short shots result from low knee bend or weak wrist snap; long shots occur with overextension or improper release angle. Corrections involve arc, power, and knee bend drills.",
+    "tags": ["short_shot", "long_shot", "knee_bend", "release_angle"]
+  },
+  {
+    "category": "miss_diagnostics",
+    "title": "Compensatory motions affecting shot outcomes",
+    "year": 2024,
+    "source": "Peer-Reviewed Biomechanics Studies",
+    "content": "Altered trunk posture and imbalance compromise shot consistency; balance and rhythm drills help mitigate compensations.",
+    "tags": ["compensatory_motion", "posture", "balance"]
+  },
+  {
+    "category": "miss_diagnostics",
+    "title": "Diagnostic tools for shot errors",
+    "year": 2024,
+    "source": "USA Basketball and FIBA Biomechanical Clinics",
+    "content": "Combined video and sensor biomechanical analyses enable personalized shot correction strategies.",
+    "tags": ["diagnostics", "video_analysis", "sensor_data"]
+  },
+  {
+    "category": "drills",
+    "title": "Left/right miss correction drill",
+    "year": 2024,
+    "source": "USA Basketball",
+    "content": "Off-hand stabilization and shoulder squaredness drills reduce lateral miss tendencies.",
+    "tags": ["drill", "miss_correction", "off_hand"]
+  },
+  {
+    "category": "drills",
+    "title": "One-hand shooting drill",
+    "year": 2024,
+    "source": "USA Basketball",
+    "content": "Isolates shooting hand mechanics, minimizing off-hand influence to build pure shooting form.",
+    "tags": ["drill", "one_hand", "shooting_form"]
+  },
+  {
+    "category": "drills",
+    "title": "Wall line drill",
+    "year": 2023,
+    "source": "FIBA",
+    "content": "Prevent elbow flare using a wall as feedback to ensure consistent elbow alignment and shot trajectory.",
+    "tags": ["drill", "elbow_flare", "alignment"]
+  },
+  {
+    "category": "drills",
+    "title": "Mirror drill",
+    "year": 2023,
+    "source": "Coaching Clinics",
+    "content": "Provides real-time visual feedback to correct mechanics and body positioning.",
+    "tags": ["drill", "visual_feedback", "mechanics"]
+  },
+  {
+    "category": "drills",
+    "title": "Pocket to release rhythm drill",
+    "year": 2024,
+    "source": "Jr. NBA",
+    "content": "Develops smooth dip and release timing for consistent shots.",
+    "tags": ["drill", "timing", "rhythm"]
+  },
+  {
+    "category": "drills",
+    "title": "Set point drill",
+    "year": 2024,
+    "source": "USA Basketball",
+    "content": "Encourages consistent shot depth at various distances, promoting repeatability.",
+    "tags": ["drill", "set_point", "consistency"]
+  },
+  {
+    "category": "drills",
+    "title": "Close-range rapid reps (\"Curry drill\")",
+    "year": 2024,
+    "source": "Jr. NBA",
+    "content": "High-volume close shots to build muscle memory and fast release speed.",
+    "tags": ["drill", "rapid_reps", "muscle_memory"]
+  },
+  {
+    "category": "drills",
+    "title": "Knee–hip coordination drills",
+    "year": 2024,
+    "source": "USA Basketball",
+    "content": "Develop power transfer through coordinated knee and hip movement supporting shooting mechanics.",
+    "tags": ["drill", "coordination", "power_generation"]
+  },
+  {
+    "category": "drills",
+    "title": "Wrist snap and fingertip control drills",
+    "year": 2024,
+    "source": "Biomechanics-Informed Motor Learning",
+    "content": "Enhances control over ball spin and release accuracy through focused wrist and finger exercises.",
+    "tags": ["drill", "wrist_snap", "ball_spin"]
+  },
+
+  {
+    "category": "deviations",
+    "title": "Excessive dip time — causes and corrections",
+    "year": 2024,
+    "source": "Applied Biomechanics; USA Basketball Coaching Clinics",
+    "content": "A dip phase exceeding ~0.70–0.80 s signals a breakdown in shot rhythm and momentum transfer. The extended load phase allows lower-body velocity to dissipate before the upward drive begins, reducing effective power output and increasing the defender's window to contest. Primary causes include over-deliberate ball catch preparation, excessive weight shift backward, or poor catch-ready positioning. Correction focuses on pre-catch readiness: arriving at the shot pocket before the ball, shortening the catch-to-dip window, and using metronome drills to anchor dip duration. For two-motion shooters a dip between 0.45–0.65 s is optimal; for one-motion shooters below 0.55 s is preferred.",
+    "tags": ["excessive_dip_time", "dip_duration", "rhythm", "momentum", "timing", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Late arm release — kinetic chain breakdown",
+    "year": 2024,
+    "source": "Kinetic Chain Research; FIBA Biomechanics Clinics",
+    "content": "Late arm release occurs when the knee-to-elbow delay exceeds the style-appropriate window (typically >250–300 ms), meaning the legs have already completed their drive before the arm engages. This severs the kinetic chain, forcing the arm to generate release force independently — reducing power efficiency and shot height. Common causes include hesitation in the set position, a deep ball pocket that delays arm travel, or conscious over-waiting after the leg drive. Coaching corrections: use a continuous upward cue ('push the floor through your fingertips'), reduce ball pocket depth, and perform rapid-fire one-motion reps to neurologically compress the lag between leg completion and arm initiation.",
+    "tags": ["late_arm_release", "knee_elbow_delay", "kinetic_chain", "timing", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Early arm release — arm leading legs",
+    "year": 2024,
+    "source": "Motor Control Research; Coaching Clinics",
+    "content": "Early arm release occurs when the elbow initiates extension before the knee drive has transferred sufficient upward force (knee-to-elbow delay more negative than −100 to −150 ms). The arm fires independently of lower-body momentum, producing flat trajectories, inconsistent arc, and elevated miss rates on longer shots. It is common in shooters who rely heavily on upper-body strength or who developed their shot without coaching on sequencing. Correction drills: leg-load-hold drill (hold squat position for a beat before releasing), resistance band leg drive to arm sequencing, and slow-motion film review to identify the moment of arm initiation relative to knee extension peak.",
+    "tags": ["early_arm_release", "knee_elbow_delay", "sequencing", "kinetic_chain", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Low release point — causes, risk, and correction",
+    "year": 2024,
+    "source": "Shot Blocking Analytics; USA Basketball Clinics",
+    "content": "A low release point (elbow_angle_release_deg below ~100–130° depending on style) reduces shot clearance over defenders and diminishes shot arc, lowering the effective target window at the rim. Causes include insufficient elbow extension at the moment of release, a pocket that is set too low, or compensating for poor rhythm by rushing the release before the arm is fully extended. For high-release shooters, elbow extension at release should exceed 130°. Correction focuses on elevating the shot pocket, practicing releases against a wall marker set above the head, and finishing with a deliberate 'reach to the sky' follow-through cue.",
+    "tags": ["low_release_point", "elbow_angle_release_deg", "release_height", "shot_clearance", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Under-extended elbow at release",
+    "year": 2023,
+    "source": "Biomechanics Journals; Okazaki et al.",
+    "content": "Incomplete elbow extension at release (elbow_angle_release_deg well below style minimum) reduces the velocity imparted to the ball and flattens the trajectory. Unlike a low release point which concerns pocket height, under-extension specifically refers to the elbow joint failing to approach full extension during the release motion — the forearm never fully 'locks out' toward the basket. This is often linked to a hitch or pause in the arm motion, or an excessively deep ball pocket that leaves insufficient time for full extension. Drills: wall extension checks (ball touches wall at arm's length at full extension), slow-motion release holds, and fingertip shooting at close range to build extension motor pattern.",
+    "tags": ["under_extended_elbow", "elbow_angle_release_deg", "elbow_extension", "extension", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Insufficient knee ROM — leg drive deficit",
+    "year": 2024,
+    "source": "Physiopedia; Sports Science Journal",
+    "content": "Insufficient knee range of motion during the shot (knee_rom_deg below style minimum) indicates the legs are not contributing adequate force to the shooting motion. Even for smooth or one-motion shooters a baseline knee extension of 30° is required for rhythm and power. For high-apex and power-leg-driven shooters, deficits below 45–120° substantially reduce vertical impulse and shot arc. Root causes include stiffness in the shot preparation, a minimal dip, or a style mismatch where the shooter is arm-dominant. Correction: exaggerated squat drill (shoot from a deliberate deep knee bend), seated-to-standing shot drill, and jump shot sequencing practice with explicit knee-bend targets.",
+    "tags": ["insufficient_knee_rom", "knee_rom_deg", "leg_drive", "power", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Excessive elbow dip — oversized arm arc before release",
+    "year": 2024,
+    "source": "Applied Biomechanics; Coaching Literature",
+    "content": "Excessive elbow dip occurs when the elbow ROM (elbow_rom_deg) is too large — the arm travels through an excessively wide arc between the shot pocket and the release point. This is distinct from a low release point; the arm simply dips too deep before being driven upward, introducing unnecessary motion that slows the release, disrupts timing consistency, and increases the chance of a hitch or secondary motion. It is common in shooters who over-wind the arm as a compensation for weak leg drive or when catching at a low pocket. Correction: compact pocket drill (restrict ball travel to a narrow vertical window from chest to forehead), elbow constraint strap training, and mirror feedback to visualize and tighten the arm path.",
+    "tags": ["excessive_elbow_dip", "elbow_rom_deg", "arm_arc", "shot_pocket", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Jerky elbow motion — smoothness deficit",
+    "year": 2023,
+    "source": "Motor Learning Research; FIBA Skill Development",
+    "content": "Low elbow smoothness scores reflect non-uniform acceleration through the elbow extension phase — the arm motion contains starts, stops, or abrupt velocity changes rather than a fluid continuous arc. This inconsistency directly reduces shot repeatability because the release window shifts between attempts. Causes include muscle tension in the forearm or tricep, over-gripping the ball, or a compensatory motion mid-shot. Corrective approach: slow-motion release practice (shoot at 50% speed to eliminate compensatory surges), towel-under-armpit drill to feel continuous elbow path, and breathing-based tension release cues during the shot sequence.",
+    "tags": ["jerky_elbow_motion", "elbow_smoothness", "fluidity", "motor_consistency", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Jerky knee motion — lower-body inconsistency",
+    "year": 2023,
+    "source": "Motor Learning Research; Applied Biomechanics",
+    "content": "Low knee smoothness reflects abrupt or uneven acceleration during the knee extension phase of the shot. An inconsistent leg drive creates variable upward force across shots, destabilizing the kinetic chain timing and making the arm release timing unpredictable. This is particularly damaging in smooth and rhythm-based shooting styles where temporal regularity is the defining trait. Causes include asymmetric weight loading at stance, fatigue-induced quad compensation, or a mismatch between intended and actual shot pace. Correction: slow eccentric squat-to-shot drills, balance board stance work, and video-overlay feedback comparing knee velocity curves across multiple shots.",
+    "tags": ["jerky_knee_motion", "knee_smoothness", "leg_drive", "motor_consistency", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Insufficient drive duration for high-apex shooting",
+    "year": 2024,
+    "source": "Trajectory Research; Basketball Science",
+    "content": "High-apex shooting requires a sustained upward drive phase (drive_duration_s ≥ 0.8 s) to generate the vertical impulse necessary for a steep ball trajectory. When drive duration falls short, the shot flattens — reducing the effective rim target window and increasing rim-out rates. Shooters who produce high-apex shots with a short drive are compensating with upper-body force, which reduces consistency. Drills: slow-push jump drill (focus on maximizing vertical travel time rather than jump height), resistance band upward pull during drive, and trajectory arc targets set above the backboard to encourage higher release angles.",
+    "tags": ["insufficient_drive_for_high_apex", "drive_duration_s", "high_apex", "trajectory", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Insufficient drive duration — general power leg and rhythm styles",
+    "year": 2024,
+    "source": "USA Basketball Clinics; Applied Biomechanics",
+    "content": "A drive phase below 0.6–0.7 s in power-leg-driven and rhythm-based styles indicates insufficient lower-body engagement, regardless of whether knee ROM appears adequate. Duration and range of motion are independent — a fast, large-ROM extension still shortchanges force transfer if the drive is too brief. Corrections: wall-sit hold-to-drive drill to build drive duration awareness, tempo-counting during live shooting ('1-2-push' timing cue), and weighted leg drive drills that force slower, more deliberate upward extension.",
+    "tags": ["insufficient_drive_duration", "drive_duration_s", "power_leg_driven", "rhythm_based", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Insufficient dip for two-motion shooting",
+    "year": 2024,
+    "source": "Two-Motion Shooting Research; Coaching Clinics",
+    "content": "Two-motion shooting is defined by a deliberate separation between the load phase (dip) and the upward drive. A dip duration below 0.45 s collapses this separation, turning an intended two-motion shot into an uncontrolled hybrid. The brief dip does not allow enough time for the shooter to stabilize at the bottom of the load or to initiate the leg drive from a consistent position. Coaching correction: deliberate pause drill (catch, dip, hold 0.5 s, drive), audio metronome to anchor the dip window, and slow-motion reps with explicit attention to the pause point at the bottom of the dip.",
+    "tags": ["insufficient_dip_for_two_motion", "dip_duration_s", "two_motion", "rhythm", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Insufficient dip for rhythm-based shooting",
+    "year": 2024,
+    "source": "Rhythm Shooting Research; Motor Learning",
+    "content": "Rhythm-based shooters rely on a consistent temporal anchor at the start of the shot — the dip. When dip duration falls below 0.4 s, this anchor is lost and the entire subsequent timing chain (drive, arm initiation, release) becomes inconsistent. Unlike two-motion shooters who need a deliberate pause, rhythm shooters need adequate dip length to build momentum. Coaching cues: 'feel the floor' cue to encourage a full weight-drop at dip, catch-and-gather drill to establish consistent ball reception before dipping, and paired metronome training to ingrain the dip cadence.",
+    "tags": ["insufficient_dip_for_rhythm", "dip_duration_s", "rhythm_based", "timing", "correction"]
+  },
+  {
+    "category": "deviations",
+    "title": "Insufficient elbow arc under torso tilt",
+    "year": 2024,
+    "source": "Compensatory Biomechanics Research",
+    "content": "When a shooter adopts a tilted torso posture, the shooting arm must travel through a wider arc to redirect force vertically toward the basket rather than along the body's tilted axis. If elbow ROM is insufficient under tilt (below ~35°), the ball releases on a path biased by the tilt angle, producing low-left or low-right misses depending on tilt direction. This is a compensation-specific deviation — it would not be flagged for an upright shooter. Correction: tilt-specific arc drill (shoot from intentional tilt, focus on directing arm motion toward the rim rather than in line with the body), and video overlay comparing ball trajectory angle vs. tilt angle to visualize the correction needed.",
+    "tags": ["insufficient_elbow_arc_for_tilt", "elbow_rom_deg", "tilted", "torso_tilt", "compensatory_motion", "correction"]
+  },
+
+  {
+    "category": "shooting_styles",
+    "title": "One-motion shooting — biomechanical profile",
+    "year": 2024,
+    "source": "Basketball Biomechanics Review; Coaching Science",
+    "content": "One-motion shooting integrates the leg drive and arm release into a single continuous kinematic chain. The key characteristic is a minimal knee-to-elbow delay (within roughly -150 to +200 ms) — the arm begins moving into the release simultaneously with or shortly after the legs initiate their upward drive. Stephen Curry is the archetypical one-motion shooter. Biomechanical advantages include faster release, reduced defender reaction time, and high shot efficiency under fatigue because the upper body is not responsible for generating independent force. One-motion shooters typically have moderate elbow ROM (40–80°), a compact dip (below 0.55 s), and rely on leg-to-arm transfer timing precision. The primary failure mode is timing drift: either the arm fires before the legs contribute (early release) or the shooter inadvertently introduces a pause, creating a two-motion hybrid.",
+    "tags": ["one_motion", "kinetic_chain", "sequencing", "knee_elbow_delay", "shooting_style"]
+  },
+  {
+    "category": "shooting_styles",
+    "title": "Two-motion shooting — biomechanical profile",
+    "year": 2024,
+    "source": "Shooting Mechanics Research; FIBA Coaching",
+    "content": "Two-motion shooting involves a deliberate separation between the leg drive phase and the arm release phase. The shooter fully or partially completes the knee extension before initiating elbow extension, producing a knee-to-elbow delay typically in the 0–300 ms range. This style provides greater control over the set point and is common among strength-based shooters and those who shoot from long range. The dip phase is longer (0.45–0.80 s) to accommodate the deliberate load. LeBron James exemplifies a two-motion approach. Key failure modes: dip that is too short (loses the separation), arm that fires too late (delay exceeds 300 ms, force dissipated), and elbow that fails to fully extend at release (low release point). Coaching preserves the deliberate pause as a stylistic feature while targeting timing extremes.",
+    "tags": ["two_motion", "sequencing", "knee_elbow_delay", "dip_duration", "shooting_style"]
+  },
+  {
+    "category": "shooting_styles",
+    "title": "High-apex shooting — trajectory and mechanics",
+    "year": 2024,
+    "source": "Shot Analytics; Basketball Science Journal",
+    "content": "High-apex shots are characterized by a steep upward trajectory requiring a sustained drive phase (≥0.8 s) and large knee ROM (≥120°) to generate sufficient vertical impulse. The steep arc increases the effective rim target window — a ball entering at 45°+ angle has a wider acceptable entry zone than a flat shot. Klay Thompson exemplifies smooth high-apex mechanics. Key mechanical requirements: full leg extension, arm release timed to the jump apex, and elbow extension ≥100° at release. The most common deviations are insufficient knee ROM (flattening the arc), early arm release (arm fires before leg drive completes), and excessive dip time (momentum lost before the drive). High-apex style is highly preservable — coaching should never flatten the arc to 'simplify' the shot.",
+    "tags": ["high_apex", "trajectory", "knee_rom_deg", "drive_duration_s", "shooting_style"]
+  },
+  {
+    "category": "shooting_styles",
+    "title": "Tilted shooting — biomechanics and compensation requirements",
+    "year": 2024,
+    "source": "Compensatory Biomechanics; Coaching Clinics",
+    "content": "Tilted shooting refers to a posture where the shooter's torso leans away from the shooting-hand side at release — common in stepback and pull-up specialists. The tilt is a stylistic and tactical feature, not an error. However, it demands compensatory elbow extension: because the body's axis is angled, the arm must extend further toward vertical (elbow_angle_release_deg ≥ 105°) and travel through adequate ROM (≥35°) to direct force toward the basket rather than along the body's tilted axis. Damian Lillard and Stephen Curry both exhibit tilted postures. The coaching principle is to preserve the tilt while ensuring the arm compensation is sufficient. A tilted shooter with insufficient elbow extension will produce consistently low or off-line shots. Never correct tilt by asking the shooter to stand upright — address the elbow compensation.",
+    "tags": ["tilted", "torso_tilt", "shoulder_angle_release_deg", "elbow_angle_release_deg", "compensatory_motion", "shooting_style"]
+  },
+  {
+    "category": "shooting_styles",
+    "title": "Power-leg-driven shooting — lower body mechanics",
+    "year": 2024,
+    "source": "Sports Power Research; USA Basketball",
+    "content": "Power-leg-driven shooters generate force primarily from explosive lower-body extension, using high knee ROM (≥45°), sustained drive duration (≥0.6 s), and controlled knee smoothness. Damian Lillard and Eric Gordon exemplify this style. The arm motion is relatively compact — the legs do the heavy lifting. Coaching must preserve the explosive leg drive while watching for two deviation patterns: an arm that dips excessively before the shot pocket (excessive elbow dip — the arm over-compensates by winding up when the legs are sufficient), and a dip phase that extends too long (>0.80 s — the extended load dissipates the leg power before the drive can begin). Drills focus on maintaining a tight arm pocket while allowing the legs to fully express their power.",
+    "tags": ["power_leg_driven", "knee_rom_deg", "drive_duration_s", "knee_smoothness", "shooting_style"]
+  },
+  {
+    "category": "shooting_styles",
+    "title": "Smooth shooting — temporal consistency as the core trait",
+    "year": 2024,
+    "source": "Motor Consistency Research; Basketball Science",
+    "content": "Smooth shooters, exemplified by Klay Thompson, prioritize temporal regularity over explosive power. Both elbow and knee smoothness scores should exceed 3000 (unitless consistency metric), reflecting near-uniform joint acceleration profiles across the shot. This consistency enables extremely high repeatability — the shot feels identical on attempt 1 and attempt 200. Smooth shooters still require baseline knee ROM (≥30°) to ensure the legs contribute some upward force, and their dip should remain within a controlled window (below 0.70 s) so rhythm is preserved. The key coaching challenge is correcting deviations — such as jerky elbow motion or insufficient knee ROM — without disrupting the temporal cadence that defines the style. All corrections for smooth shooters should be gradual and practiced at sub-game speed first.",
+    "tags": ["smooth", "elbow_smoothness", "knee_smoothness", "motor_consistency", "shooting_style"]
+  },
+  {
+    "category": "shooting_styles",
+    "title": "High-release shooting — mechanics and requirements",
+    "year": 2024,
+    "source": "Release Point Research; NBA Analytics",
+    "content": "High-release shooters intentionally release the ball at a point above the typical apex — often with the shooting elbow near or above eye level. Ray Allen is the canonical example. The defining requirement is substantial elbow extension at release (≥130°), which elevates the ball's departure point and increases shot clearance over defenders. The style inherently allows a higher shoulder angle at release. Key failure modes: elbow failing to reach full extension (under-extended elbow / low release point), dip phase running too long (>0.75 s — momentum disrupted before the high-release motion can fully express), and arm release timing that is too early or late relative to the leg drive. High-release requires deliberate practice to develop the muscular strength to sustain elbow extension at height under game fatigue.",
+    "tags": ["high_release", "elbow_angle_release_deg", "release_height", "shooting_style"]
+  },
+  {
+    "category": "shooting_styles",
+    "title": "Quick-release shooting — timing constraints",
+    "year": 2024,
+    "source": "Defense Reaction Research; FIBA Analytics",
+    "content": "Quick-release shooters minimize the time between catching the ball and releasing it — specifically targeting a dip duration below 0.4 s and a knee-to-elbow delay below 150 ms. The style is designed to beat closing defenders before they can contest. The trade-off is reduced margin for error: with a compressed timeline, any disruption to the dip or arm initiation timing has an outsized effect. Excessive dip time is the primary deviation — even a modest extension of the dip to 0.5 s meaningfully increases defender contest opportunity. Late arm release is the secondary risk. Coaching focuses on pre-catch readiness (body loaded before the ball arrives), muscle memory drills at maximal release speed, and maintaining elbow extension quality at high velocity.",
+    "tags": ["quick_release", "dip_duration_s", "knee_elbow_delay", "release_speed", "shooting_style"]
+  },
+  {
+    "category": "shooting_styles",
+    "title": "Rhythm-based shooting — cadence as repeatability foundation",
+    "year": 2024,
+    "source": "Motor Learning; Coaching Clinics",
+    "content": "Rhythm-based shooters anchor their shot consistency in a repeatable temporal cadence — consistent dip duration (0.4–0.75 s) and drive duration (≥0.7 s) that give the kinetic chain a reliable baseline to build from. When the rhythm is intact, all downstream mechanics (release timing, arm extension, apex height) tend to be consistent. When the rhythm breaks — dip too short, drive too brief, or excessive dip time — downstream consistency collapses. Coaching for rhythm shooters centers on protecting this cadence: use metronome training, consistent catch-ready positioning, and emotional regulation cues for high-pressure situations where tempo tends to compress.",
+    "tags": ["rhythm_based", "dip_duration_s", "drive_duration_s", "timing", "shooting_style"]
+  },
+  {
+    "category": "shooting_styles",
+    "title": "Compact shooting style — elbow arc and smoothness requirements",
+    "year": 2024,
+    "source": "Compact Shooting Research; Applied Biomechanics",
+    "content": "Compact shooters minimize unnecessary arm motion, keeping the ball on a tight vertical path from pocket to release. The style requires adequate elbow ROM (≥40°) to produce full extension, combined with high elbow smoothness (≥2500) to ensure the compact arc is executed with consistency rather than stiffness. The primary failure mode is insufficient elbow arc — the arm is so compressed that it cannot generate adequate extension velocity, producing short or flat shots. A secondary failure mode is excessive dip — if the arm dips too deep before the compact motion begins (elbow_rom_deg >160°), the shot ceases to be compact and introduces unnecessary motion. Coaching preserves the tight arm path while ensuring the shooter achieves full extension within the compact window.",
+    "tags": ["compact", "elbow_rom_deg", "elbow_smoothness", "shot_pocket", "shooting_style"]
+  },
+
+  {
+    "category": "preserve_constraints",
+    "title": "Preserving shoulder alignment in coaching corrections",
+    "year": 2024,
+    "source": "Coaching Methodology; USA Basketball",
+    "content": "Shoulder alignment at release is a downstream result of stance, footwork, and hip orientation — it is difficult to change in isolation and attempting to do so often creates compensatory problems elsewhere. When a shooter's shoulder alignment is identified as a strength (not a deviation source), coaching corrections for other mechanics — elbow position, arm arc, dip timing — must be framed without cues that alter shoulder orientation. For example, correcting a low release point by asking a shooter to 'push the ball higher' is acceptable; asking them to 'square your shoulders more' risks disrupting an alignment that is already optimal for their style.",
+    "tags": ["shoulder_alignment", "preserve_constraint", "coaching_methodology", "correction_framing"]
+  },
+  {
+    "category": "preserve_constraints",
+    "title": "Preserving wrist snap — do not disrupt a sound release mechanic",
+    "year": 2024,
+    "source": "Release Mechanics Research; Physiopedia",
+    "content": "Wrist snap is the final force-imparting action in the shot and is responsible for ball spin, arc, and release direction control. When a shooter's wrist snap is mechanically sound, coaching corrections to other aspects of the shot — elbow extension, dip timing, knee drive — must avoid cues that influence hand position, finger pad contact, or wrist flexion timing. Telling a shooter to 'extend harder' without qualification can cause them to stiffen the wrist. All corrections should explicitly decouple from wrist mechanics: 'drive your elbow up toward the basket, and let your wrist finish as it normally does' is a preservation-aware cue.",
+    "tags": ["wrist_snap", "preserve_constraint", "release_mechanics", "correction_framing"]
+  },
+  {
+    "category": "preserve_constraints",
+    "title": "Preserving intentional torso tilt — tilt is a feature, not a flaw",
+    "year": 2024,
+    "source": "Stepback Shooting Research; NBA Analytics",
+    "content": "Torso tilt in stepback and pull-up specialists is a deliberate postural strategy, not a balance error. Attempting to correct it by asking the shooter to 'stand tall' or 'stay upright' fundamentally changes their shooting posture and invalidates the motor pattern they have trained. The correct coaching approach is to accept the tilt and ensure the arm compensation is sufficient — specifically, that elbow extension and ROM meet the higher requirements imposed by the tilted posture. When generating feedback, always frame tilt-related corrections as arm adjustments ('extend your elbow further toward the basket to compensate for your lean') rather than posture corrections.",
+    "tags": ["torso_tilt", "tilted", "preserve_constraint", "stepback", "coaching_methodology"]
+  },
+  {
+    "category": "preserve_constraints",
+    "title": "Preserving knee ROM when it is within style range",
+    "year": 2024,
+    "source": "Lower Body Biomechanics; Coaching Science",
+    "content": "Knee ROM is a strength to protect when it meets or exceeds the style minimum. Coaching cues that reduce knee bend — particularly telling a shooter to 'shoot quicker' or 'stop squatting so much' — can inadvertently degrade a mechanical asset. For high-apex and power-leg-driven shooters, knee ROM is the primary source of vertical impulse; reducing it to simplify the shot destroys the shot's defining power source. Only intervene on knee ROM when it falls below the style minimum (insufficient_knee_rom). When knee ROM is adequate, all other corrections — dip timing, arm release — must be framed to preserve the existing leg drive depth.",
+    "tags": ["knee_rom", "knee_rom_deg", "preserve_constraint", "power_leg_driven", "high_apex"]
+  },
+  {
+    "category": "preserve_constraints",
+    "title": "Preserving high-apex trajectory — protect the arc",
+    "year": 2024,
+    "source": "Trajectory Optimization Research; Basketball Analytics",
+    "content": "When a shooter's high-apex arc is correctly established, it provides a meaningful shooting advantage — the steep entry angle widens the effective rim target window. Coaching corrections must never flatten the arc by shortening the drive duration or asking for a faster release. Even when correcting deviations like excessive dip time or early arm release in a high-apex shooter, corrections must be framed to preserve drive duration (≥0.8 s) and release height. The coaching constraint is: fix timing problems earlier in the sequence (dip phase) rather than later (shortening the drive) so the arc is maintained.",
+    "tags": ["high_apex", "trajectory", "preserve_constraint", "drive_duration_s", "coaching_methodology"]
+  },
+  {
+    "category": "preserve_constraints",
+    "title": "Preserving one-motion flow — do not introduce pauses",
+    "year": 2024,
+    "source": "One-Motion Shooting Research; Coaching Clinics",
+    "content": "The one-motion kinetic chain is the foundational trait of one-motion shooters and is responsible for their release speed and difficulty to contest. Any coaching intervention that introduces a deliberate pause or separation — such as 'wait for your legs to finish before you release' — converts the shot toward a two-motion pattern, invalidating the motor pattern. Corrections for one-motion shooters must be continuous-motion cues: 'let the floor push through your fingers' (not 'pause at the top'), 'drive up and release in one push' (not 'separate legs and arms'). When addressing timing issues like early arm release, the cue is 'hold the connection a fraction longer' — not 'pause between legs and arm'.",
+    "tags": ["one_motion_flow", "one_motion", "kinetic_chain", "preserve_constraint", "coaching_methodology"]
+  },
+  {
+    "category": "preserve_constraints",
+    "title": "Preserving dip rhythm — anchor timing without disrupting cadence",
+    "year": 2024,
+    "source": "Rhythm Shooting Research; Motor Learning",
+    "content": "Dip rhythm is the temporal foundation of rhythm-based and smooth shooting styles. When dip_duration_s is within the acceptable window for the style, the cadence is a mechanical asset and must not be disrupted. Corrections that extend or shorten the dip — even in service of fixing a downstream deviation — risk collapsing the rhythm foundation. When a different deviation (e.g. jerky elbow motion) is being corrected in a rhythm-based shooter, the coaching cue must explicitly protect dip timing: 'keep your same dip and drive rhythm — just focus on a smoother arm path through the pocket.' Never ask rhythm shooters to change their tempo to fix a mechanics issue.",
+    "tags": ["dip_rhythm", "dip_duration_s", "rhythm_based", "smooth", "preserve_constraint", "coaching_methodology"]
+  },
+  {
+    "category": "preserve_constraints",
+    "title": "Preserving compact pocket — do not widen the arm path unnecessarily",
+    "year": 2024,
+    "source": "Compact Shooting Research; Applied Biomechanics",
+    "content": "The compact pocket — a tight, controlled arm arc from ball receipt to release — is a deliberate efficiency feature. When elbow_rom_deg is within the acceptable range for the style, the compactness is a strength. Corrections aimed at increasing elbow ROM to improve extension (e.g. for under-extended elbow) must be carefully bounded: the goal is to achieve full extension within the existing compact arc, not to widen the arc itself. Coaching cue: 'finish with your elbow all the way extended, but keep the ball on the same tight path' — not 'take the ball back further before you shoot'. Widening the arc introduces excessive elbow dip as a new deviation.",
+    "tags": ["compact_pocket", "elbow_rom_deg", "preserve_constraint", "compact", "coaching_methodology"]
+  },
+
+  {
+    "category": "drills",
+    "title": "Metronome dip timing drill",
+    "year": 2024,
+    "source": "Motor Learning Applied to Basketball",
+    "content": "Set a metronome or audio cue at the target dip duration interval. Shooter catches and dips on beat 1, drives on beat 2, releases on beat 3. Adjust BPM to match the style target (e.g., 0.5 s dip = 120 BPM half-notes). Perform 50 reps per session. This builds dip duration consistency and corrects both excessive dip time and insufficient dip deviations by anchoring the timing neurologically.",
+    "tags": ["drill", "dip_duration_s", "excessive_dip_time", "rhythm", "timing", "metronome"]
+  },
+  {
+    "category": "drills",
+    "title": "Leg-load-hold drill for early arm release",
+    "year": 2024,
+    "source": "Kinetic Chain Coaching",
+    "content": "Shooter performs a full dip and leg drive but consciously holds the ball at the shot pocket for an additional half-beat before initiating arm extension. This exaggerates the separation to build awareness of leg completion before arm firing. Begin with slow reps (3/4 game speed), progress to full speed over 3–4 sessions. Targets early arm release by neurologically re-ordering the leg-first, arm-second sequence.",
+    "tags": ["drill", "early_arm_release", "knee_elbow_delay", "sequencing", "kinetic_chain"]
+  },
+  {
+    "category": "drills",
+    "title": "Continuous push-through drill for late arm release",
+    "year": 2024,
+    "source": "Kinetic Chain Coaching; Jr. NBA",
+    "content": "Using a verbal cue ('floor to fingertips'), the shooter practices initiating arm extension as the legs begin the drive — not after they complete it. Partner places a hand on the shooter's elbow to provide a gentle upward prompt at the moment of leg initiation. 30 reps slow, 30 reps full speed. Targets late arm release by compressing the kinetic chain delay.",
+    "tags": ["drill", "late_arm_release", "knee_elbow_delay", "kinetic_chain", "sequencing"]
+  },
+  {
+    "category": "drills",
+    "title": "High-release wall target drill",
+    "year": 2024,
+    "source": "USA Basketball; Coaching Clinics",
+    "content": "Place a strip of tape on a wall 12–18 inches above the shooter's max reach. Shooter practices releasing the ball to touch the tape from a stationary position, focusing on achieving full elbow extension and a high release point. Progress to jump shots toward the tape. 40 reps per session. Targets low release point and under-extended elbow by establishing a physical reference for release height.",
+    "tags": ["drill", "low_release_point", "under_extended_elbow", "elbow_angle_release_deg", "release_height"]
+  },
+  {
+    "category": "drills",
+    "title": "Exaggerated knee bend to full extension drill",
+    "year": 2024,
+    "source": "Lower Body Power Coaching",
+    "content": "Shooter exaggerates the knee bend to 20% deeper than normal during the dip, then drives to full extension. Forces conscious engagement of the full knee ROM and builds leg drive awareness. Perform 3 sets of 20 reps from mid-range. Targets insufficient knee ROM by over-recruiting the pattern — once established at exaggerated depth, reduce to the target depth and the motor pattern holds.",
+    "tags": ["drill", "insufficient_knee_rom", "knee_rom_deg", "leg_drive", "power"]
+  },
+  {
+    "category": "drills",
+    "title": "Compact pocket elbow constraint drill",
+    "year": 2024,
+    "source": "Shooting Mechanics Coaching",
+    "content": "Shooter holds a folded towel under the shooting-side armpit. If the elbow dips excessively before the shot pocket, the towel falls — providing immediate feedback. Perform 30 stationary reps, then 20 catch-and-shoot reps. Targets excessive elbow dip by physically constraining the downward arm arc and reinforcing the tight vertical arm path.",
+    "tags": ["drill", "excessive_elbow_dip", "elbow_rom_deg", "shot_pocket", "compact_pocket"]
+  },
+  {
+    "category": "drills",
+    "title": "Slow-motion elbow extension smoothness drill",
+    "year": 2024,
+    "source": "Motor Learning; Applied Biomechanics",
+    "content": "Shooter performs the full arm motion at 40% speed, focusing on a perfectly uniform acceleration from pocket to follow-through with no pauses or surges. Film and review. Once smooth at 40%, increase to 60%, 80%, then game speed. Targets jerky elbow motion by isolating the arm arc at sub-threshold speed to establish the smooth motor pattern before speed is added.",
+    "tags": ["drill", "jerky_elbow_motion", "elbow_smoothness", "motor_consistency", "fluidity"]
+  },
+  {
+    "category": "drills",
+    "title": "Balance board leg drive consistency drill",
+    "year": 2024,
+    "source": "Motor Control; Sports Science",
+    "content": "Shooter stands on a balance board or foam pad while performing slow-motion shot simulations without a ball. Focus on symmetric, controlled knee bend and drive. The unstable surface forces conscious engagement of both legs equally. Progress to using a ball on the pad, then move to a stable surface and perform full shots. Targets jerky knee motion by building proprioceptive awareness of the knee drive symmetry.",
+    "tags": ["drill", "jerky_knee_motion", "knee_smoothness", "balance", "leg_drive"]
+  },
+  {
+    "category": "drills",
+    "title": "Drive duration timer drill for high-apex",
+    "year": 2024,
+    "source": "Trajectory Training; Basketball Science",
+    "content": "Using a stopwatch or app, coach times the shooter's drive phase (from initiation of upward leg push to peak of jump). Target ≥0.8 s for high-apex style. Shooter practices maximizing hang time rather than jump height — a slow, full-extension drive rather than an explosive vertical burst. 25 reps with verbal timer feedback per session. Directly targets insufficient drive duration in high-apex shooters.",
+    "tags": ["drill", "insufficient_drive_for_high_apex", "drive_duration_s", "high_apex", "trajectory"]
+  },
+  {
+    "category": "drills",
+    "title": "Tilt compensation arc drill",
+    "year": 2024,
+    "source": "Compensatory Mechanics Coaching",
+    "content": "Shooter adopts their natural tilted stance. Coach places a target (ring on a pole or taped hoop on the wall) aligned with the shooter's intended basket direction — not along the body's tilt axis. Shooter practices directing the arm extension toward the target (vertical), not along the body lean. 30 reps. Targets insufficient elbow arc for tilt by building the compensatory arm direction as an explicit motor target.",
+    "tags": ["drill", "insufficient_elbow_arc_for_tilt", "tilted", "torso_tilt", "elbow_rom_deg"]
+  }
+]
